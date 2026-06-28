@@ -1,0 +1,62 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "dotnetCorePackages.dotnet_9.sdk@latest": {
+      "last_modified": "2026-06-16T10:57:20Z",
+      "resolved": "github:NixOS/nixpkgs/3e41b24abd260e8f71dbe2f5737d24122f972158#dotnetCorePackages.dotnet_9.sdk",
+      "source": "devbox-search",
+      "version": "9.0.118",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2wn2phh4sb50qhal97r7vj6az71nyyyr-dotnet-sdk-wrapped-9.0.118",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/h99awmy46mb2qshc1rglbfw6lin2xhd2-dotnet-sdk-wrapped-9.0.118-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2wn2phh4sb50qhal97r7vj6az71nyyyr-dotnet-sdk-wrapped-9.0.118"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n6zgal1g4idihzg2r1kkz50ys7q4bw42-dotnet-sdk-wrapped-9.0.118",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/5kz23zjfyakc821iy0l72c5mn05zqn2p-dotnet-sdk-wrapped-9.0.118-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n6zgal1g4idihzg2r1kkz50ys7q4bw42-dotnet-sdk-wrapped-9.0.118"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gxlb8vhsia792nskk9pl4c54g6msvyw2-dotnet-sdk-wrapped-9.0.118",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/8prqr56limd9l0pl3b1fzrmg3kq0pbs3-dotnet-sdk-wrapped-9.0.118-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gxlb8vhsia792nskk9pl4c54g6msvyw2-dotnet-sdk-wrapped-9.0.118"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-06-23T00:43:55Z",
+      "resolved": "github:NixOS/nixpkgs/89570f24e97e614aa34aa9ab1c927b6578a43775?lastModified=1782175435&narHash=sha256-EMzXKmnOtBQ2MnvpiNOm7E%2BkOMvdPrIKaeg52Tip2Uk%3D"
+    }
+  }
+}
